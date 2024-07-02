@@ -1,0 +1,48 @@
+.CountryList {
+    padding: 10px 50px;
+    font-size: var(--Homepage-fontSize);
+}
+
+.CountryList__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.CountryList__header-search {
+    display: flex;
+    gap: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    min-width: 400px;
+    padding: 10px;
+}
+
+.CountryList__header-search__svg {
+    height: 15px;
+}
+
+.CountryList__header-search__input {
+    border: none;
+    flex: 1;
+    outline: none;
+
+
+}
+
+.CountryList__header-select select {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+.CountryList__items {
+    margin-top: 50px;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+}

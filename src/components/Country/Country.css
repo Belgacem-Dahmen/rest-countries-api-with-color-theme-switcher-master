@@ -1,0 +1,18 @@
+.country {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.country__img {
+    width:100%;
+    height: auto;
+}
+
+.country__infos {
+    min-height: 50%;
+}
