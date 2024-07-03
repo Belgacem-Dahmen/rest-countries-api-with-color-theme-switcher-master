@@ -73,3 +73,20 @@
     gap: 30px;
 
 }
+
+@media screen and (max-width : 376px) {
+    .CountryList__items {
+
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+
+    }
+
+
+}
+
+
+
+    
