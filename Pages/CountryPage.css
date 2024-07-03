@@ -1,0 +1,36 @@
+.country-page {
+    padding: 0 50px;
+    font-size: var(--Detail-Page-fontSize);
+}
+
+
+
+.country-page__btn {
+    display: flex;
+    color: white;
+    margin: 50px 0;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+
+}
+
+.country-page__btn-icon {
+    height: 30px;
+}
+
+.country-page__infos {
+    display: flex;
+    gap: 50px;
+    margin-top: 75px;
+}
+
+.country-page__infos-flag {
+    flex: 1;
+    width: 50%;
+}
+
+.country-page__infos-stats {
+    flex: 1;
+    width: 50%;
+}

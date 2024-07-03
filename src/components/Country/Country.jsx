@@ -7,7 +7,7 @@ function Country({ country }) {
     return (
         <div className='country'>
             <img className='country__img' src={country.flags.svg} alt="country" />
-            <Link to={{ pathname: `country/${country.name}`, state: {...country } }}>
+            <Link to={`country/${country.name}`} state= { country } >
                 <div className="country__infos">
                     <p className='country__infos-name'>{country.name}</p>
                     <p className='country__infos-populaion'><span>Population: </span>{country.population}</p>
