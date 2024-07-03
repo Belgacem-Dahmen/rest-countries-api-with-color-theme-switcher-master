@@ -1,18 +1,33 @@
 .country {
-    max-width: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px solid gray;
+    background-color: var(--white);
+    box-shadow: 1px 1px 5px rgb(165, 162, 162);
     border-radius: 5px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .country__img {
-    width:100%;
-    height: auto;
+    object-fit: cover;
+    height: 50%;
 }
 
 .country__infos {
+
+    background-color: var(--white);
+    padding: 20px;
     min-height: 50%;
+}
+
+.country__infos span {
+    font-weight: 800;
+    color: var(--very-dark-blue-text);
+}
+
+.country__infos-name {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--very-dark-blue-text);
+    margin-bottom: 20px;
 }
