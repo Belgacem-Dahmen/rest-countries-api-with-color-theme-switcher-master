@@ -20,7 +20,7 @@ const CountryPage = () => {
       <div className='country-page__infos'>
         <img className='country-page__infos-flag' src={country.flag} alt="" />
         <div className='country-page__infos-stats'>
-          <p>Name: {country.name}</p>
+          <p className='country-page-name'>{country.name}</p>
           <p>Population: {country.population}</p>
           <p>Region: {country.region}</p>
           <p>Capital: {country.capital}</p>

@@ -1,5 +1,5 @@
 .country {
-    background-color: var(--white);
+    background-color: var(--bg-color);
     box-shadow: 1px 1px 5px rgb(165, 162, 162);
     border-radius: 5px;
     overflow: hidden;
@@ -15,14 +15,14 @@
 
 .country__infos {
 
-    background-color: var(--white);
+    background-color: var(--bg-color);
     padding: 20px;
     min-height: 50%;
 }
 
 .country__infos span {
     font-weight: 800;
-    color: var(--very-dark-blue-text);
+    color: var(--text-color);
 }
 
 .country__infos-name {

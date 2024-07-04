@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Header.css"
 
-function Header() {
+function Header({ toogleTheme }) {
     return (
         <header className='header'>
             <h1 className='header__title'>Where in the world ?</h1>
@@ -12,7 +12,7 @@ function Header() {
                 </svg>
 
 
-                <button className='header__button'> Dark Mode </button>
+                <button className='header__button' onClick={toogleTheme}> Dark Mode </button>
             </div>
         </header>
     )

@@ -7,7 +7,7 @@
 
 .country-page__btn {
     display: flex;
-    color: white;
+    color: var(--text-color);
     margin: 50px 0;
     align-items: center;
     gap: 20px;

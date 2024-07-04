@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 0;
-  color: var(--dark-gray);
-  background-color: var(--very-light-gray-bg);
+  color: var(--text-color);
+  background-color: var(--bg-color);
 }
-
