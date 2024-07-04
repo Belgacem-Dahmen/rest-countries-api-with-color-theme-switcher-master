@@ -37,7 +37,7 @@ function CountryList() {
                     <select name="region" id="region" onChange={handleRegionchange}>
                         <option className='CountryList__region-option' value="All">Filter by region</option>
                         <option className='CountryList__region-option' value="Africa">Africa</option>
-                        <option className='CountryList__region-option' value="America">America</option>
+                        <option className='CountryList__region-option' value="Americas">Americas</option>
                         <option className='CountryList__region-option' value="Asia">Asia</option>
                         <option className='CountryList__region-option' value="Europe">Europe</option>
                         <option className='CountryList__region-option' value="Oceania">Oceania</option>
