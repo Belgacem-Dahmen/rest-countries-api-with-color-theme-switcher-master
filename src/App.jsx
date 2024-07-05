@@ -3,11 +3,19 @@
 import './App.css'
 import Header from './components/Header/Header'
 // import * as React from "react";
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
+
+
+
+
+
 
 function App() {
   const [theme, setTheme] = useState('light');
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
@@ -16,7 +24,7 @@ function App() {
   };
   return (
     <div className="App" data-theme={theme}>
-      <Header toogleTheme={toggleTheme}  />
+      <Header toogleTheme={toggleTheme} />
       <Outlet />
     </div>
   )
