@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--element-color);
-    border-bottom: 1px solid var(--shadow-color);
-    box-shadow: 0 4px 2px -2px var(--shadow-color);
+    border-bottom: 1px solid var(--element-color);
+    box-shadow: 0 1px 2px -2px var(--shadow-color);
     overflow: hidden;
     padding: 10px 50px;
 }
@@ -35,21 +35,24 @@
         overflow: hidden;
         padding: 20px;
     }
+
     .header__title {
         font-size: 1rem;
     }
+
     .header__right {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 0px;
         font-size: var(--Homepage-fontSize);
-        
+
     }
+
     .header__right-svg {
-        height:15px;
-        
-    
+        height: 15px;
+
+
     }
-    
+
 }
