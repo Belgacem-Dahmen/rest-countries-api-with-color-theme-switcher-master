@@ -24,7 +24,7 @@
   --text-color: hsl(0, 0%, 100%);
   --input-color: hsl(0, 0%, 52%);
   --element-bg-color: hsl(0, 0%, 100%);
-  --shadow-color: gray;
+  --shadow-color: rgb(77, 76, 76);
 }
 
 :root[data-theme="light"] {

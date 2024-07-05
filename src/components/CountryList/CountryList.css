@@ -76,7 +76,7 @@
 
 }
 
-@media screen and (max-width : 376px) {
+@media screen and (max-width : 476px) {
     .CountryList {
         padding: 10px 20px;
         font-size: var(--Homepage-fontSize);
@@ -108,4 +108,13 @@
     }
 
 
+}
+
+@media screen and (min-width: 476px) and (max-width: 852px) {
+    .CountryList__items {
+        min-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+        gap: 30px;
+    }
 }
