@@ -16,7 +16,7 @@
     align-items: center;
     gap: 5px;
     background-color: var(--element-color);
-    box-shadow: 1px 0px 3px gray;
+    box-shadow: 1px 0px 3px var(--element-color);;
     border-radius: 5px;
     min-width: 400px;
     padding: 10px;
@@ -51,7 +51,7 @@
     outline: none;
     width: 100%;
     padding: 10px 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--element-color);
     border-radius: 5px;
     background-color: var(--element-color);
     color: var(--text-color);
