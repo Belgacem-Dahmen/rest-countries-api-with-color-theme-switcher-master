@@ -1,6 +1,6 @@
 .country {
     background-color: var(--bg-color);
-    box-shadow: 1px 1px 5px rgb(165, 162, 162);
+    box-shadow: 1px 1px 5px var(--shadow-color);
     border-radius: 5px;
     overflow: hidden;
     display: flex;

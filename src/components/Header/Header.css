@@ -2,15 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(  --element-color);
-    border-bottom: 1px solid gray;
-    box-shadow: 0 4px 2px -2px rgb(194, 190, 190);
+    background-color: var(--element-color);
+    border-bottom: 1px solid var(--shadow-color);
+    box-shadow: 0 4px 2px -2px var(--shadow-color);
     overflow: hidden;
     padding: 10px 50px;
 }
 
 .header__title {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .header__right {
@@ -22,6 +22,34 @@
 }
 
 .header__right-svg {
-    height: 30px;
+    height: 20px;
 
+}
+
+@media screen and (max-width:376px) {
+    .header {
+        max-width: 375px;
+        background-color: var(--element-color);
+        border-bottom: 1px solid var(--shadow-color);
+        box-shadow: 0 4px 2px -2px var(--shadow-color);
+        overflow: hidden;
+        padding: 20px;
+    }
+    .header__title {
+        font-size: 1rem;
+    }
+    .header__right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        font-size: var(--Homepage-fontSize);
+        
+    }
+    .header__right-svg {
+        height:15px;
+        
+    
+    }
+    
 }

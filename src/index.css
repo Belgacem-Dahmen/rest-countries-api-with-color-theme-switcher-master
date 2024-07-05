@@ -24,6 +24,7 @@
   --text-color: hsl(0, 0%, 100%);
   --input-color: hsl(0, 0%, 52%);
   --element-bg-color: hsl(0, 0%, 100%);
+  --shadow-color: gray;
 }
 
 :root[data-theme="light"] {
@@ -32,6 +33,7 @@
   --text-color: hsl(200, 15%, 8%);
   --input-color: hsl(0, 0%, 52%);
   --element-bg-color: hsl(0, 0%, 98%);
+  --shadow-color: rgb(54, 53, 53);
 }
 
 
