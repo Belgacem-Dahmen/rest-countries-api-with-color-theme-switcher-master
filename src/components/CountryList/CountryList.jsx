@@ -16,12 +16,12 @@ function CountryList() {
 
     const filteredCountries = countries.filter(country => {
         if (region === 'All') {
-          return search ? country.name.toLowerCase().includes(search.toLowerCase()) : true;
+            return search ? country.name.toLowerCase().includes(search.toLowerCase()) : true;
         } else {
-          return country.name.toLowerCase().includes(search.toLowerCase()) && country.region === region;
+            return country.name.toLowerCase().includes(search.toLowerCase()) && country.region === region;
         }
-      });
-    
+    });
+
 
     return (
         <div className='CountryList'>
@@ -31,10 +31,10 @@ function CountryList() {
                         <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                     </svg>
 
-                    <input className='CountryList__header-search__input' type="text" placeholder='Search for a country..' onChange={handlechange} />
+                    <input className='CountryList__header-search__input' type="text" id="search-input" autocomplete="on" placeholder='Search for a country..' onChange={handlechange}  />
                 </div>
                 <div className='CountryList__header-select'>
-                    <select name="region" id="region" onChange={handleRegionchange}>
+                    <select name="region" id="region" autocomplete="off" onChange={handleRegionchange}>
                         <option className='CountryList__region-option' value="All">Filter by region</option>
                         <option className='CountryList__region-option' value="Africa">Africa</option>
                         <option className='CountryList__region-option' value="Americas">Americas</option>

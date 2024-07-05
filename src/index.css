@@ -132,3 +132,11 @@ button {
 /* button:hover {
   border-color: inherit;
 } */
+
+@media screen and (max-width:376px ) {
+    body {
+      font-family: var(--ff--font-family);
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+}
